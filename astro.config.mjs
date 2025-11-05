@@ -3,6 +3,8 @@ import tailwind from '@astrojs/tailwind';
 import react from '@astrojs/react';
 
 export default defineConfig({
+	site: 'https://muhammetyetis.github.io/',
+	base: '/railDevHub/',
 	integrations: [
 		tailwind({
 			applyBaseStyles: false,
@@ -10,8 +12,6 @@ export default defineConfig({
 		react(),
 	],
 	output: 'static',
-	site: 'https://muhammetyetis.github.io',
-	base: '/railDevHub/',
 });
 
 

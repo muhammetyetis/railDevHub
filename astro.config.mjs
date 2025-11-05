@@ -4,7 +4,6 @@ import react from '@astrojs/react';
 
 export default defineConfig({
 	site: 'https://muhammetyetis.github.io/',
-	base: '/railDevHub/',
 	integrations: [
 		tailwind({
 			applyBaseStyles: false,
